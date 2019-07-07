@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="contact, kontakt">
+    <meta name="author" content="Łukasz Reszka">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>Kontakt</title>
+</head>
+<body>
+<a href="index.html">Home</a>
+
+<form action="index.html" method="post">
+    <label for="name">Imię</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label>Nazwisko
+        <input type="text" name="surname" id="surname">
+    </label>
+    <br>
+    <label>Hasło
+        <input type="password" name="password" id="password">
+    </label>
+    <br>
+    <label>Płeć
+        <select name="gender">
+            <option>Kobieta</option>
+            <option>Mężczyzna</option>
+        </select>
+    </label>
+    <br>
+    <label>Wiadomość<textarea id="message" cols="20" rows="10"></textarea></label>
+    <br>
+    <label><input name="agreed" type="checkbox">Wyrażam zgodę na przetwarzanie danych osobowych
+        .</label>
+    <br>
+    <button type="submit">Wyślij formularz</button>
+</form>
+</body>
+</html>

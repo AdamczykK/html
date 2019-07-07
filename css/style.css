@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue !important;
+}
+
+p {
+    color: orange;
+}
+
+pre {
+    font-size: 20px;
+}
+
+div {
+    color: red;
+}
+
+/*klasa*/
+.redBackground {
+    background-color: pink;
+}
+
+/*id*/
+#myIdAkapit {
+    background-color: cyan;
+}
+
+[href="image.html"] {
+    background-color: burlywood;
+}
+
+.firstClass {
+    font-size: 25px;
+}
+
+.firstClass.secondClass {
+    background-color: yellow;
+}
+
+div ul {
+    color: blue;
+}
+
+div > div > ul {
+    color: green;
+}
+
+div, ul {
+    font-size: 15px;
+}
+
+#container {
+    background-color: green;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    border: 3px dashed red;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: lightGrey;
+}
+
+p::first-letter {
+    font-size: 45px;
+}
+
+li:nth-child(2) {
+    background-color: red;
+}
